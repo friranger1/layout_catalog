@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  transition-duration: 300ms;
+  transition-duration: $transition-duration;
 
   &:hover {
     transform: scale(1.2);
@@ -28,7 +28,7 @@
     line-height: 18px;
     color: $main-accent;
     margin: 0 16px;
-    transition-duration: 300ms;
+    transition-duration: $transition-duration;
   }
 
   &__articul {
@@ -96,7 +96,7 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
-    transition-duration: 300ms;
+    transition-duration: $transition-duration;
 
     // &:hover {
     //   background-color: #fff;
