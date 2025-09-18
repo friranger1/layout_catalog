@@ -97,15 +97,6 @@
     text-transform: uppercase;
     font-size: 14px;
     transition-duration: $transition-duration;
-
-    // &:hover {
-    //   background-color: #fff;
-    //   color: $blue-accent;
-    //   border: 1px solid $blue-accent;
-    //   cursor: pointer;
-    //   margin: 16px auto;
-    //   height: 37px;
-    // }
   }
 }
 
@@ -113,7 +104,13 @@
   color: $button-hover;
 }
 
-.card:hover .card__button {
-  color: $blue;
+// .card:hover .card__button {
+//   color: $blue;
+//   background-color: $white;
+// }
+
+.card__button:hover {
+  cursor: pointer;
   background-color: $white;
+  color: $blue;
 }

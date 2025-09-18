@@ -20,7 +20,7 @@ body {
   font-style: normal;
   font-size: 12px;
   line-height: 1;
-  color: #000;
+  color: $black;
 }
 
 .site__header {
@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   width: 100%;
   background-color: $white;
-  padding-inline: $site-padding-horizontal;
+  padding-inline: $site-padding-horizontal $site-padding-vertical;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
